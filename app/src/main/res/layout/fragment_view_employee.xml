@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewEmployeeFragment">
+
+    <TextView
+        android:id="@+id/D_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="89dp"
+        android:text="@string/emplid" />
+
+    <TextView
+        android:id="@+id/ID_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/D_id"
+        android:layout_marginEnd="79dp" />
+
+    <TextView
+        android:id="@+id/D_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/D_id"
+        android:layout_marginTop="138dp"
+        android:text="@string/username" />
+
+    <TextView
+        android:id="@+id/D_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/D_id"
+        android:layout_marginTop="189dp"
+        android:text="@string/user_email" />
+
+    <TextView
+        android:id="@+id/D_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/D_id"
+        android:layout_marginTop="241dp"
+        android:text="@string/user_gender" />
+
+    <TextView
+        android:id="@+id/D_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/D_id"
+        android:layout_marginBottom="240dp"
+        android:text="@string/department" />
+
+    <TextView
+        android:id="@+id/Name_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ID_display"
+        android:layout_alignTop="@+id/D_name" />
+
+    <TextView
+        android:id="@+id/Email_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ID_display"
+        android:layout_alignTop="@+id/D_email" />
+
+    <TextView
+        android:id="@+id/Gender_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ID_display"
+        android:layout_alignTop="@+id/D_gender" />
+
+    <TextView
+        android:id="@+id/Department_display"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ID_display"
+        android:layout_alignTop="@+id/D_department" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/D_id"
+        android:layout_marginBottom="51dp"
+        android:text="@string/Logout" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ID_display"
+        android:layout_alignTop="@+id/button"
+        android:text="@string/Delete" />
+</RelativeLayout>
